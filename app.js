@@ -6,7 +6,7 @@ const PORT = 3030
 app.use(express.static(path.join(__dirname,'public')));
 
 app.get('/',(req,res) => res.sendFile(path.join(__dirname,'views','index.html')));
-app.get('/babage',(req,res) => res.sendFile(path.join(__dirname,'views','babage.html')));
+app.get('/babbage',(req,res) => res.sendFile(path.join(__dirname,'views','babbage.html')));
 app.get('/berners-lee.html',(req,res) => res.sendFile(path.join(__dirname,'views','berners-lee.html')));
 app.get('/clarke',(req,res) => res.sendFile(path.join(__dirname,'views','clarke.html')));
 app.get('/hamilton',(req,res) => res.sendFile(path.join(__dirname,'views','hamilton.html')));
